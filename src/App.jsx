@@ -3,6 +3,7 @@ import "./index.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import Weather from './Weather.jsx';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
   return (
     <div className="app">
 <h1>React Weather App</h1>
+<Weather />
 <footer>
   This project was coded by <a href="https://krystleportfolio.netlify.app/" target="_blank" rel="noreferrer" >
 Krystle Leach</a> and is <a href="https://github.com/krystleL21/my-react-app" target="_blank" rel="noreferrer">
