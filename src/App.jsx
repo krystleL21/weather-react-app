@@ -11,6 +11,11 @@ function App() {
   return (
     <div className="app">
 <h1>React Weather App</h1>
+<footer>
+  This project was coded by <a href="https://krystleportfolio.netlify.app/" target="_blank" rel="noreferrer" >
+Krystle Leach</a> and is <a href="https://github.com/krystleL21/my-react-app" target="_blank" rel="noreferrer">
+open-sourced on GitHub</a> and <a href="https://687bdb1c75721d4552893ca6--krystle-react-app.netlify.app/" target="_blank" rel="noreferrer">hosted on Netlify</a>
+</footer>
 </div>
   );
 }
