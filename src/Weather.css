@@ -28,18 +28,21 @@ list-style: none;
 }
 .Weather .temperature {
     color: rgb(33, 33, 33);
-    font-size: 50px;
+    font-size: 64px;
     margin-left: 5px;
+    position: relative;
+    top: 8px;
 }
 .Weather img {
-    position:relative;
+    position: relative;
     top: -12px;
-    width: 4em;
+    width: 5em;
     height: auto;
 }
 .Weather .unit {
     position: relative;
-    top: -20px;
+    top: -25px;
     right: -5px;
     line-height: 1;
+    color: black;
 }
