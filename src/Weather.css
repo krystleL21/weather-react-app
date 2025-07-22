@@ -6,6 +6,8 @@
     color: rgb(135, 135, 135);
     padding: 16px;
     border-radius: 4px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 .Weather form {
     margin-bottom: 20px;
@@ -27,7 +29,7 @@ line-height: 19px;
 list-style: none;
 }
 .Weather .temperature {
-    color: rgb(33, 33, 33);
+    color: #352961;
     font-size: 64px;
     margin-left: 5px;
     position: relative;
@@ -45,4 +47,10 @@ list-style: none;
     right: -5px;
     line-height: 1;
     color: black;
+}
+.Weather .btn-primary {
+    background-color: #774181;
+    border: none;
+    color: #f6e5e5;
+
 }

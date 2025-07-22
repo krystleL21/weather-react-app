@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-<Weather />
+<Weather defaultcity="Jamaica"/>
 <footer>
   This project was coded by <a href="https://krystleportfolio.netlify.app/" target="_blank" rel="noreferrer" >
 Krystle Leach</a> and is <a href="https://github.com/krystleL21/my-react-app" target="_blank" rel="noreferrer">
