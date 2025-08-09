@@ -2,9 +2,24 @@ import React, { useState, useEffect } from "react";
 import Weather from './Weather';
 import 'bootstrap/dist/css/bootstrap.css';
 import { FaSun, FaMoon } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 import './App.css'
 
 function App() {
+
+        <Helmet>
+        <title>React Weather App | Krystle Codes</title>
+        <meta
+          name="description"
+          content="Check real-time weather forecasts worldwide with Krystle's React Weather App. Built with React, Bootstrap, and OpenWeather API."
+        />
+        <meta
+          name="keywords"
+          content="React Weather App, Weather Forecast, Krystle Codes, OpenWeather API, Bootstrap Weather"
+        />
+        <meta name="author" content="Krystle Leach" />
+      </Helmet>
+
   const [darkMode, setDarkMode] = useState(false);
   useEffect(() => {
     if (darkMode) {
