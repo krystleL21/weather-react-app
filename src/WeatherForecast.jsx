@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./WeatherForecast.css";
 import axios from "axios";
-import WeatherForecastDay from "./WeatherForecastDay";
+import WeatherforecastDay from "./WeatherforecastDay";
 
 
 export default function WeatherForecast(props) {
@@ -37,7 +37,7 @@ axios.get(apiUrl).then(handleResponse).catch((error) => {
           if (index < 5) {
             return (
               <div className="col" key={index}>
-                <WeatherForecastDay data={dailyForecast} />
+                <WeatherforecastDay data={dailyForecast} />
               </div>
             );
           } else {
