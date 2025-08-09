@@ -5,7 +5,7 @@ import { FaSun, FaMoon } from "react-icons/fa";
 import { Helmet } from "react-helmet";
 import './App.css'
 import redbubLogo from './assets/redbubLogo.jpg';
-import TPub_logo_white from './assets/TPub_Logo_white.png';
+import TPubLogoWhite from './assets/TPubLogoWhite.png';
 
 function App() {
 
@@ -87,13 +87,14 @@ function App() {
       rel="noopener noreferrer"
     >
       <img
-        src={TPub_logo_white}
+        src={TPubLogoWhite}
         alt="TeePublic Store"
         className="tp-store-logo"
       />
     </a>
-    <p>© {new Date().getFullYear()} K-Lux</p> 
+     
   </div>
+  <p>© {new Date().getFullYear()} K-Lux</p>
         </footer>
       </div>
     </div>

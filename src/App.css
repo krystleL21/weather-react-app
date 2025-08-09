@@ -76,5 +76,13 @@ body.dark .App footer a:hover {
   height: auto;
 }
 .store-links {
-  gap: 23px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+ display: flex;
+ justify-content: center;
+ gap:2em;
+}
+.App p {
+  color:#ff69b4;
+  font-weight: bold;
 }
