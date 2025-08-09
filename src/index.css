@@ -1,3 +1,50 @@
-.bod {
-   background-color: #f6e5e5;
+body {
+  background: linear-gradient(
+    135deg,
+    #FCE4EC, /* soft light pink */
+    #D1E8F0  /* pale blue */
+  );
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #1E1E1E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: #b22222; /* deep rose heading color */
+}
+
+a {
+  color: #ff69b4; /* hot pink links */
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #7EC8E3; /* pastel blue hover */
+}
+
+footer {
+  text-align: center;
+  margin-top: auto; /* keep footer at bottom */
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #444;
+  background: rgba(255, 240, 245, 0.85); /* light pink footer background */
+  border-top: 1px solid rgba(255, 182, 193, 0.4);
+  box-shadow: 0 -2px 6px rgba(255, 182, 193, 0.2);
+  width: 100%;
+}
+
+footer a {
+  color: darkviolet;
+  transition: color 0.2s ease;
+}
+
+footer a:hover {
+  color: #b22222; /* deep rose hover */
 }

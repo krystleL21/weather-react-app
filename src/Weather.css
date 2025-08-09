@@ -1,70 +1,29 @@
 .Weather {
-    font-family: arial, sans-serif;
-    border: 1px solid #dadde1;
-    margin: 30px auto;
-    max-width: 600px;
-    color: rgb(135, 135, 135);
-    padding: 16px;
-    border-radius: 4px;
-    background-color: white;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
 }
-.Weather form {
-    margin-bottom: 20px;
+
+.WeatherTemperature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #b22222; /* Deep rose for temperature text */
+  background: rgba(255, 240, 245, 0.85); /* Light pink background */
+  padding: 15px 25px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(255, 182, 193, 0.3); /* Soft pink shadow */
+  border: 1px solid rgba(255, 182, 193, 0.4); /* Soft pink border */
 }
-.Weather h1 {
-font-size: 34px;
-margin: 20px 5 0 0;
-font-weight:100;
-line-height: 29px;
-}
-.Weather ul {
-    margin: 1;
-    padding: 0;
-}
-.Weather li { 
-font-size: 22px;
-font-weight: 100;
-line-height: 19px;
-list-style: none;
-}
-.Weather .temperature {
-    color: #352961;
-    font-size: 100px;
-    margin-left: 5px;
-    margin-bottom: 0 auto;
-    position: relative;
-    left: 85px;
-    bottom: 55px;
-}
-.Weather img {
-    position: relative;
-    top: -12px;
-    width: 5em;
-    height: auto;
-}
-.Weather .unit {
-    font-size: 1.5em;
-    position: relative;
-    top: -110px;
-    right: -84px;
-    line-height: 1;
-    color: black;
-}
-.Weather .unit a {
-text-decoration: none;
-}
-.Weather .btn-primary {
-    background-color: #774181;
-    border: none;
-    color: #f6e5e5;
-}
-.Weather canvas {
-    width: 75px;
+
+.WeatherTemperature-icon {
+  margin-right: 10px;
   position: relative;
-  top: 55px;
+  top: 2px;
 }
-.Weather .info {
-    position: relative;
-    top: 60px;
+
+.Weather-details {
+  font-size: 1rem;
+  color: #ff69b4; /* Hot pink accent for details */
+  margin-top: 10px;
 }
