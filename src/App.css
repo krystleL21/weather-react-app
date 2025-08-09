@@ -67,3 +67,14 @@ body.dark .App footer a:hover {
     font-size: 0.65rem;
   }
 }
+.rb-store-logo {
+  width: 35px;
+  height: auto;
+}
+.tp-store-logo {
+  width: 35px;
+  height: auto;
+}
+.store-links {
+  gap: ;
+}

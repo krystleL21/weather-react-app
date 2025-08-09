@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { FaSun, FaMoon } from "react-icons/fa";
 import { Helmet } from "react-helmet";
 import './App.css'
+import redbubLogo from './assets/redbubLogo.jpg';
+import TPub_logo_white from './assets/TPub_Logo_white.png';
 
 function App() {
 
@@ -73,9 +75,9 @@ function App() {
       rel="noopener noreferrer"
     >
       <img
-        src="/redbubLogo.ejug5"
+        src={redbubLogo}
         alt="Redbubble Store"
-        className="store-logo"
+        className="rb-store-logo"
       />
     </a>
 
@@ -85,9 +87,9 @@ function App() {
       rel="noopener noreferrer"
     >
       <img
-        src="/teepublicLogo.png"
+        src={TPub_logo_white}
         alt="TeePublic Store"
-        className="store-logo"
+        className="tp-store-logo"
       />
     </a>
     <p>© {new Date().getFullYear()} K-Lux</p> 
