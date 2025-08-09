@@ -64,6 +64,34 @@ function App() {
           >
             hosted on Netlify
           </a>
+           
+
+  <div className="store-links">
+    <a
+      href="http://www.redbubble.com/people/k-lux"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="/redbubLogo.ejug5"
+        alt="Redbubble Store"
+        className="store-logo"
+      />
+    </a>
+
+    <a
+      href="https://www.teepublic.com/user/k-lux"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="/teepublicLogo.png"
+        alt="TeePublic Store"
+        className="store-logo"
+      />
+    </a>
+    <p>© {new Date().getFullYear()} K-Lux</p> 
+  </div>
         </footer>
       </div>
     </div>

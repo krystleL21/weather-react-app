@@ -18,3 +18,35 @@
   margin-bottom: 0.5rem;
   color: #ff69b4;
 }
+@media (max-width: 768px) {
+  .WeatherForecast .col {
+    padding: 0.8rem;
+    margin: 0.3rem;
+  }
+
+  .WeatherForecast-day {
+    font-size: 0.9rem;
+  }
+
+  .WeatherForecast-temperatures {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .WeatherForecast {
+    margin-top: 1rem;
+  }
+
+  .WeatherForecast .col {
+    padding: 0.6rem;
+  }
+
+  .WeatherForecast-day {
+    font-size: 0.8rem;
+  }
+
+  .WeatherForecast-temperatures {
+    font-size: 0.8rem;
+  }
+}
