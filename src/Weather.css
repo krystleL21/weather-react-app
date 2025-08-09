@@ -1,29 +1,65 @@
 .Weather {
-  text-align: center;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 0 25px rgba(255, 105, 180, 0.7),
+              0 0 50px rgba(255, 182, 193, 0.5);
+  margin-top: 2rem;
+  animation: pinkGlow 3s ease-in-out infinite;
 }
+@keyframes pinkGlow {
+  0% {
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.6),
+                0 0 40px rgba(255, 182, 193, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 35px rgba(255, 105, 180, 0.8),
+                0 0 70px rgba(255, 182, 193, 0.6);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.6),
+                0 0 40px rgba(255, 182, 193, 0.4);
+  }
+}
+form .form-control {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(252, 228, 236, 0.4);
+}
+form .btn-primary {
+  background: #ff69b4;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem;
+  transition: background 0.3s ease;
+}
+form .btn-primary:hover {
+  background: #ff69b4;
+  opacity: 0.8;
+}
+.WeatherInfo h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  color: #ff69b4;
+}
+.WeatherForecast-temperatures {
+  margin-top: 0.5rem;
+  color: #ff69b4;
+}
+.WeatherForecast-temperature-max {
+  font-weight: bold;
+  margin-right: 0.3rem;
 
-.WeatherTemperature {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+}
+.WeatherTemperature .temperature {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #b22222; /* Deep rose for temperature text */
-  background: rgba(255, 240, 245, 0.85); /* Light pink background */
-  padding: 15px 25px;
-  border-radius: 15px;
-  box-shadow: 0 2px 8px rgba(255, 182, 193, 0.3); /* Soft pink shadow */
-  border: 1px solid rgba(255, 182, 193, 0.4); /* Soft pink border */
+  color: #ff69b4;
 }
-
-.WeatherTemperature-icon {
-  margin-right: 10px;
+.WeatherTemperature .unit {
+  font-weight: bold;
   position: relative;
-  top: 2px;
-}
-
-.Weather-details {
-  font-size: 1rem;
-  color: #ff69b4; /* Hot pink accent for details */
-  margin-top: 10px;
+  bottom: 15px;
 }

@@ -1,36 +1,20 @@
 .WeatherForecast {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 2rem;
 }
-
-.WeatherForecast-day {
-  flex: 1;
-  background: rgba(255, 240, 245, 0.85); /* Light pink background */
-  margin: 0 5px;
-  border-radius: 12px;
-  padding: 10px;
+.WeatherForecast .col {
   text-align: center;
-  box-shadow: 0 2px 8px rgba(255, 182, 193, 0.3); /* Soft pink shadow */
-  border: 1px solid rgba(255, 182, 193, 0.4); /* Pink border */
-  transition: transform 0.2s ease, background 0.3s ease;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding: 1rem;
+  margin: 0.5rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
 }
-
-.WeatherForecast-day:hover {
+.WeatherForecast .col:hover {
   transform: translateY(-5px);
-  background: rgba(255, 240, 245, 0.95); /* Slightly brighter pink */
 }
-
-.WeatherForecast-date {
-  font-weight: bold;
-  color: #b22222; /* Deep rose for readability */
-}
-
-.WeatherForecast-temp {
-  color: #ff69b4; /* Hot pink accent for temperature */
-  font-weight: bold;
-}
-
-.WeatherForecast-icon {
-  margin-top: 5px;
+.WeatherForecast-day {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #ff69b4;
 }
